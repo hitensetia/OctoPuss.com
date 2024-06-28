@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product 1 - OctoPuss</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">OctoPuss</div>
+        <nav>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About Us</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="index.html#contact">Contact Us</a></li>
+                <li><a href="index.html#products">Products</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+        </div>
+        <div class="login">
+            <button onclick="openLoginForm()">Login</button>
+        </div>
+    </header>
+
+    <!-- Product Body -->
+    <main>
+        <section class="product-detail">
+            <h1>Product 1</h1>
+            <img src="product1.jpg" alt="Product 1">
+            <p>Product 1 detailed description goes here...</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 OctoPuss. All rights reserved.</p>
+    </footer>
+
+    <!-- Login Form -->
+    <div id="loginForm" class="login-form">
+        <form>
+            <h2>Login</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
